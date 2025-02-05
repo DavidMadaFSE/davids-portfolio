@@ -5,10 +5,20 @@ export default function Home() {
       {/* Name Section */}
       <h1 className="text-4xl font-bold mb-8">David Andrew Mada</h1>
 
-      {/* Navigation Links */}
-      <nav className="flex flex-col items-center space-y-4">
-        <a href="#projects" className="text-lg font-medium hover:text-blue-400 transition">Projects</a>
-        <a href="#about" className="text-lg font-medium hover:text-blue-400 transition">About Me</a>
+      {/* Projects Section */}
+      <section className="mt-16 w-full max-w-4x1">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Projects</h2>
+      </section>
+
+      {/* About Me Section */}
+      <section id="about" className="mt-16 w-full max-w-4x1">
+        <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+        <p className="text-gray-300">
+          Hi there my name is David and I'm a developer who is passionate about building web applications and solving problems.
+          I am getting my bachelors degree in software engineering at Arizona State Universit and I am planned to graduate this
+          year (2025).
+        </p>
+      </section>
 
         {/* Footer Section */}
         <footer className="mt-12 border-t border-gray-700 w-full text-center pt-4">
@@ -19,7 +29,6 @@ export default function Home() {
             <a href="mailto:dmada@asu.edu" className="hover:text-blue-400">Email</a>
           </div>
         </footer>
-      </nav>
     </div>
   );
 };
